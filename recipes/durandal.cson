@@ -1,0 +1,27 @@
+steps: [
+  type: "archive"
+  url: "http://durandaljs.com/version/latest/Durandal.zip"
+  stripRootDir: false
+  files: [
+    {
+      src: "css",
+      dest: "vendor/css"
+    },
+    {
+      src: "js",
+      dest: "vendor/js/durandal"
+    }
+  ]
+]
+message: """
+         Durandal has three depedencies:
+            jQuery >= 1.8.0
+            Knockout >= 2.2.1
+            RequireJS >= 2.0.0
+         If your project
+         doesn't already include jQuery, then you may choose to add it (e.g.
+         `lineman fetch jquery`),
+
+         Also, you will need to use lineman-requirejs (npm install lineman-requirejs)
+         See https://github.com/frisB/lineman-requirejs
+         """
