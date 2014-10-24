@@ -1,0 +1,13 @@
+steps: [
+  type: "file"
+  url: "https://raw.githubusercontent.com/lodash/lodash/2.4.1/dist/lodash.underscore.js"
+  dest: "vendor/js/lodash.js"
+]
+message: """
+         lodash is a better, faster, stronger underscore. ;-)
+         There are three versions (see https://lodash.com/):
+         - lodash => the modern build (for new environments like Chrome, Firefox, IE ≥ 9, & Safari ≥ 5.1)
+         - lodash.compat => (for new & old environments like IE ≤ 8 & PhantomJS)
+         - lodash.underscore => A drop-in replacement for Underscore v1.5.2
+
+         """
