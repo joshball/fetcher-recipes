@@ -1,0 +1,5 @@
+steps: [
+  type: "file"
+  url: "http://knockoutjs.com/downloads/knockout-3.2.0.debug.js"
+  dest: "vendor/js/knockout.js"
+]
